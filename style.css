@@ -14,6 +14,7 @@ header {
 main {
     background-color: rgb(18, 168, 18);
     min-height: 300px;
+    display: flex   ;
 }
 
 .cards {
@@ -41,3 +42,12 @@ main {
     width:30%;
 }
 
+.maincard1 {
+    background-color: mediumaquamarine;
+    flex: 2;
+}
+
+.maincard2 {
+    background-color: mintcream;
+    flex: 1;
+}
