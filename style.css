@@ -1,5 +1,4 @@
 .container {
-    background-color: rgb(8, 44, 8);
     min-height: 100px;
     width: 1024px;
     margin-left: auto;
@@ -12,9 +11,9 @@ header {
 }
 
 main {
-    background-color: rgb(18, 168, 18);
     min-height: 300px;
     display: flex   ;
+    align-items: center;
 }
 
 .cards {
@@ -43,11 +42,9 @@ main {
 }
 
 .maincard1 {
-    background-color: mediumaquamarine;
     flex: 2;
 }
 
 .maincard2 {
-    background-color: mintcream;
     flex: 1;
 }
