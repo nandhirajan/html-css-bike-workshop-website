@@ -5,9 +5,19 @@
     margin-right: auto;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#FC5E55,#FA4083);
+}
+
 header {
-    background-color: rgb(13, 95, 13);
-    min-height: 100px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main {
@@ -47,4 +57,9 @@ main {
 
 .maincard2 {
     flex: 1;
+}
+
+nav {
+    text-align: right;
+    justify-content: center;
 }
